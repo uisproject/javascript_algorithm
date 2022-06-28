@@ -44,6 +44,7 @@ const solve1 = (s1, s2) => {
 
 // Hash table method
 const solve2 = (s1 = "", s2 = "") => {
+  // storing the letters into object to store the value of how many of each letter has
   const registerAlphabet = (text = "") => {
     const arr = text.split("");
     let storedAlphabet = {};
@@ -95,6 +96,8 @@ const solve2 = (s1 = "", s2 = "") => {
 
 // Optimized has table method
 const solve3 = (s1 = "", s2 = "") => {
+  // the concept still the same as the solve2() but enhanced version with length checking and optimize how to store the letters into object
+
   if (s1.length != s2.length) return false;
 
   const storeIntoObj = (text = "") => {
