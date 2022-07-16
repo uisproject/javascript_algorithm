@@ -4,6 +4,12 @@
 // s2 = garden
 // output : true
 
+// Analyzing
+// if you look closely anagram can be checked if the two strings have the same length
+// if the length is the same you can check if the two strings have the same letters
+// if the letters are the same you can check if the letters are the same frequency
+// by frequency is the total amount of letters in the string
+
 const tests = {
   s1: "sss",
   s2: "sss",
